@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,600&display=swap');
+* {
+    /* outline: 1px black solid; */
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    font-family: Figtree;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+}
+.contain{
+    background-color: white;
+    width: 380px;
+    padding: 10px;
+    margin: 20px;
+    padding: 5px;
+    height: 85vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    border: 2px black solid;
+}
+.blog-pic{
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+div.learn-block{
+    height: 60px;
+    margin-inline: 27px;
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: small;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+.learn-block,p{
+    margin-top: 20px;
+}
+.blog-found{
+    margin-inline: 27px;
+    margin-top: 45px;
+}
+h1:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.p2{
+    margin-top: 15px;
+    font-weight: normal;
+    color: rgb(170, 170, 170);
+}
+.Greg-H{
+    font-weight: bolder;
+    display: flex;
+    margin-inline: 29px;
+    margin-top: 25px;
+    gap: 1rem;
+}
+.attribution{
+    margin-top: 45px;
+}
+
+
